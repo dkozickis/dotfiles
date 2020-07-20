@@ -1,0 +1,1 @@
+alias yto="yarn test --onlyChanged"
