@@ -4,7 +4,7 @@ POWERLEVEL9K_VCS_SHORTEN_LENGTH=20
 POWERLEVEL9K_VCS_SHORTEN_MIN_LENGTH=20
 POWERLEVEL9K_VCS_SHORTEN_STRATEGY=truncate_from_right
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(battery)
-DEFAULT_USER=deniss.kozickis
+DEFAULT_USER=kozikiiiiiis
 
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
@@ -17,6 +17,6 @@ forgit_restore=fgcf
 forgit_clean=fgclean
 forgit_stash_show=fgss
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting colored-man-pages osx ripgrep forgit)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting colored-man-pages osx ripgrep)
 
 source $ZSH/oh-my-zsh.sh
