@@ -1,24 +1,12 @@
 #!/bin/sh
-#
-# Homebrew
-#
-# This installs some of the common dependencies needed (or at least desired)
-# using Homebrew.
 
-# Check for Homebrew
-if test ! $(which brew)
-then
-  echo "  Installing Homebrew for you."
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-  # Install the correct homebrew for each OS type
-  if test "$(uname)" = "Darwin"
-  then
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  elif test "$(expr substr $(uname -s) 1 5)" = "Linux"
-  then
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
-  fi
+brew install git ripgrep imagemagick watchman tree bat \
+delta switchaudio-osx exa
 
-fi
-
-exit 0
+brew cask install alfred google-chrome firefox \
+bartender fantastical visual-studio-code 1password dash \
+vlc discord zoomus betterzip \
+qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook \
+suspicious-package qlvideo spotify qmoji
