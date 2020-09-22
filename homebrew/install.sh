@@ -3,7 +3,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew install git ripgrep imagemagick watchman tree bat \
-delta switchaudio-osx exa
+delta switchaudio-osx exa fzf tldr jq
 
 brew cask install alfred google-chrome firefox \
 bartender fantastical visual-studio-code 1password dash \
