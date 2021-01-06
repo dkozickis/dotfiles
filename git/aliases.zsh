@@ -17,3 +17,7 @@ glacota () {
 glacoha () {
   git log -1 --pretty=%h --reverse | pbcopy
 }
+
+gcbn () {
+  git_current_branch | pbcopy
+}
