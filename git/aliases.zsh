@@ -21,7 +21,3 @@ glacoha () {
 gcbn () {
   git_current_branch | pbcopy
 }
-
-diverse () {
-  node -e "console.log(process.argv[1].split(\"\").map(diverseSymbol => diverseSymbol === \" \" ? \" \" : \":alphabet-white-\" + diverseSymbol + \":\").join(\" \"))" $1 | pbcopy
-}
