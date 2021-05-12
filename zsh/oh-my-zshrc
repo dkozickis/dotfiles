@@ -12,6 +12,6 @@ forgit_restore=fgcf
 forgit_clean=fgclean
 forgit_stash_show=fgss
 
-plugins=(git zsh-autosuggestions colored-man-pages osx ripgrep)
+plugins=(git zsh-autosuggestions colored-man-pages osx ripgrep fast-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
