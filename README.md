@@ -1,3 +1,12 @@
+# dkozickis does dotfiles
+
+Do this first:
+
+* Generate SSH key
+* Install brew
+* Install oh-my-zsh
+* Install ALL of this <3
+
 # holman does dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.

@@ -47,3 +47,6 @@
 	old = red bold
 	new = green bold
 	whitespace = red reverse
+[user]
+	name = Deniss Kozickis
+	email = deniss.kozickis@workday.com
